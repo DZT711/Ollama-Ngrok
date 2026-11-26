@@ -4,6 +4,8 @@
 
 This project provides a powerful, interactive way to run and host **Ollama** on Google Colab using **Ngrok** for external access. It includes a custom-built Model Manager to easily browse, pull, and delete models from multiple providers.
 
+For an automated setup that updates Ollama, pulls the newest versioned Llama model, and filters the official catalogue for likely agent-ready models, use `agent-ready-ollama.ipynb`.
+
 ---
 
 ## 🌟 Features
