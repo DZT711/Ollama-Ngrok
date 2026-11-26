@@ -63,7 +63,8 @@ For the best performance, you **must** use a GPU.
 
 ### Step 1: System Setup
 Locate the cell labeled **"Step 1: System Setup & Ollama Installation"**.
-- Replace `YOUR_NGROK_AUTH_TOKEN` with your actual token from the [Ngrok Dashboard](https://dashboard.ngrok.com/get-started/your-authtoken).
+- Copy `.env.example` to `.env`, then set `NGROK_AUTHTOKEN` to your token from the [Ngrok Dashboard](https://dashboard.ngrok.com/get-started/your-authtoken). The `.env` file is ignored by Git so the secret stays out of the notebook and repository.
+- In Google Colab, upload the `.env` file to the runtime (or mount the folder containing it) before running the setup cell.
 - Run the cell. This will install Ollama, start the server, and provide you with a **Public Ngrok URL**.
 
 ### Step 2: Install Python Dependencies
